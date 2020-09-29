@@ -15,7 +15,7 @@ public class baseconfiguration {
 
 	public static AndroidDriver<AndroidElement> capabilities(String DeviceType) throws MalformedURLException {
 
-		File folder = new File("src/test");
+		File folder = new File("src");
 		File fpath = new File(folder, "original.apk");
 
 		System.out.println("apk file location " + fpath.getAbsoluteFile());
